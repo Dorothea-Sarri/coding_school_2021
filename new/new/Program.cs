@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace @new {
     class Program {
         static void Main(string[] args) {
+
+            Console.WriteLine("Question1(10)");
+            Console.ReadLine();
         }
     }
 }
