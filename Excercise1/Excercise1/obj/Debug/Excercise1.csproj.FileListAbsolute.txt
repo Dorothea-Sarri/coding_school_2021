@@ -1,7 +1,0 @@
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\bin\Debug\Excercise1.exe.config
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\bin\Debug\Excercise1.exe
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\bin\Debug\Excercise1.pdb
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\obj\Debug\Excercise1.csproj.AssemblyReference.cache
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\obj\Debug\Excercise1.csproj.CoreCompileInputs.cache
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\obj\Debug\Excercise1.exe
-C:\Users\Dorothea\source\repos\Excercise1\Excercise1\obj\Debug\Excercise1.pdb
