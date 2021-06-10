@@ -21,17 +21,17 @@ namespace Exercise_Gui {
 
         private void button1_Click(object sender, EventArgs e) {
 
-            Form2 f2 = new Form2();
+            StudentForm f2 = new StudentForm();
             f2.ShowDialog(); // Shows Form2
         }
 
         private void button2_Click(object sender, EventArgs e) {
-            Form3 f3 = new Form3();
+            ProfessorForm f3 = new ProfessorForm();
             f3.ShowDialog(); // Shows Form2
         }
 
       private void button3_Click_1(object sender, EventArgs e) {
-          Form4 f4 = new Form4();
+          CourseForm f4 = new CourseForm();
          f4.ShowDialog(); // Shows Form2
        }
 

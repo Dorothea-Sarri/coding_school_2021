@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Exercise_Gui {
-    public partial class Form3 : Form {
-        public Form3() {
+    public partial class ProfessorForm : Form {
+        public ProfessorForm() {
             InitializeComponent();
         }
 
@@ -31,14 +31,14 @@ namespace Exercise_Gui {
             string surname = textBox2.Text;
             string age = textBox3.Text;
             string rank = textBox4.Text;
-            List<Professor> prof = new List<Professor>();
-            Professor p = new Professor();
+            List<Professor> professors = new List<Professor>();
+            Professor professor = new Professor();
 
-            p.SetAge(Int32.Parse(age));
-            p.SetName(name);
-            p.SetSurname(surname);
-            p.SetRank(rank);
-            prof.Add(p);
+            professor.SetAge(Int32.Parse(age));
+            professor.SetName(name);
+            professor.SetSurname(surname);
+            professor.SetRank(rank);
+            professors.Add(professor);
         }
     }
 }

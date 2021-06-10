@@ -33,33 +33,38 @@ namespace Exercise_Gui {
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.Location = new System.Drawing.Point(28, 145);
+            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(48, 145);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(92, 34);
+            this.button1.Size = new System.Drawing.Size(128, 33);
             this.button1.TabIndex = 0;
             this.button1.Text = "Add Student...";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Application
             // 
             this.Application.AutoSize = true;
-            this.Application.ForeColor = System.Drawing.Color.Teal;
-            this.Application.Location = new System.Drawing.Point(45, 39);
+            this.Application.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.Application.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Application.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Application.ForeColor = System.Drawing.Color.Navy;
+            this.Application.Location = new System.Drawing.Point(25, 22);
+            this.Application.Margin = new System.Windows.Forms.Padding(3);
             this.Application.Name = "Application";
-            this.Application.Size = new System.Drawing.Size(175, 13);
-            this.Application.TabIndex = 2;
-            this.Application.Text = "University Management Application\'";
+            this.Application.Size = new System.Drawing.Size(441, 33);
+            this.Application.TabIndex = 20;
+            this.Application.Text = "University Management Application";
             this.Application.Click += new System.EventHandler(this.Application_Click);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.BackColor = System.Drawing.Color.SteelBlue;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(270, 145);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 33);
+            this.button2.Size = new System.Drawing.Size(128, 33);
             this.button2.TabIndex = 3;
             this.button2.Text = "Add Professor...";
             this.button2.UseVisualStyleBackColor = false;
@@ -67,10 +72,11 @@ namespace Exercise_Gui {
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Teal;
-            this.button3.Location = new System.Drawing.Point(499, 145);
+            this.button3.BackColor = System.Drawing.Color.SteelBlue;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(517, 145);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 34);
+            this.button3.Size = new System.Drawing.Size(128, 34);
             this.button3.TabIndex = 4;
             this.button3.Text = "Add Course...";
             this.button3.UseVisualStyleBackColor = false;

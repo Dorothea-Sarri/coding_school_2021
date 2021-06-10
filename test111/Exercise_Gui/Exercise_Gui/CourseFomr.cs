@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Exercise_Gui {
-    public partial class Form4 : Form {
-        public Form4() {
+    public partial class CourseForm : Form {
+        public CourseForm() {
             InitializeComponent();
         }
 
@@ -21,12 +21,16 @@ namespace Exercise_Gui {
         private void button1_Click(object sender, EventArgs e) {
             string code = textBox1.Text;
             string subject = textBox2.Text;
-            List<Course> cours = new List<Course>();
-            Course c = new Course();
-            c.SetCode(code);
-            c.SetSubject(subject);
-          
-            cours.Add(c);
+            List<Course> courses = new List<Course>();
+            Course course = new Course();
+            course.SetCode(code);
+            course.SetSubject(subject);
+
+            courses.Add(course);
+        }
+
+        private void Form4_Load(object sender, EventArgs e) {
+
         }
     }
 }
