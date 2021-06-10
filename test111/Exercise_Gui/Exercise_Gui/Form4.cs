@@ -9,9 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Exercise_Gui {
-    public partial class Form1 : Form {
-        public Form1() {
+    public partial class Form4 : Form {
+        public Form4() {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e) {
+            this.Close();
         }
     }
 }
