@@ -1,0 +1,13 @@
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\bin\Debug\Exercise_Gui.exe.config
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\bin\Debug\Exercise_Gui.exe
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\bin\Debug\Exercise_Gui.pdb
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.csproj.AssemblyReference.cache
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.Properties.Resources.resources
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.csproj.GenerateResource.cache
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.csproj.CoreCompileInputs.cache
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.exe
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.pdb
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.ManagerApp.resources
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.ProfessorForm.resources
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.StudentForm.resources
+C:\Users\Dorothea\source\local\test\test111\Exercise_Gui\Exercise_Gui\obj\Debug\Exercise_Gui.CourseForm.resources
