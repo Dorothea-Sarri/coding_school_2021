@@ -25,5 +25,20 @@ namespace Exercise_Gui {
         private void button2_Click(object sender, EventArgs e) {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            string name = textBox1.Text;
+            string surname = textBox2.Text;
+            string age = textBox3.Text;
+            string rank = textBox4.Text;
+            List<Professor> prof = new List<Professor>();
+            Professor p = new Professor();
+
+            p.SetAge(Int32.Parse(age));
+            p.SetName(name);
+            p.SetSurname(surname);
+            p.SetRank(rank);
+            prof.Add(p);
+        }
     }
 }
