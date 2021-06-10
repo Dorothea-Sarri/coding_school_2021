@@ -11,7 +11,7 @@ namespace Exercise_Gui {
         public string Code { get; set; }
         public string Subject { get; set; }
         public Course() {
-            ID = Guid.NewGuid();
+            //ID = Guid.NewGuid();
         }
     }
 }

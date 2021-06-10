@@ -12,7 +12,7 @@ namespace Exercise_Gui {
 
         }
         public void SetRank(string rank) {
-            Rank = rank;
+           // Rank = rank;
         }
     }
 }
