@@ -90,7 +90,16 @@ namespace Exercise__Serialize {
             }
 
         }
-        private void WriteToTxt() {
+       /* private University CreateUniversity() {
+            University university = new University();
+            university.Courses = Courses;
+            university.Professors = Professors;
+            university.Students = Students;
+            return university;
+
+        }*/
+
+            private void WriteToTxt() {
            // string path = Path.Combine(Environment.CurrentDirectory, _TxtFile);
 
           //  string data = string.Empty;
@@ -105,11 +114,14 @@ namespace Exercise__Serialize {
         private void SerializeToJson() {
 
             JavaScriptSerializer serializer = new JavaScriptSerializer();
+            University university = new University();
+            university.Courses = Courses;
+            university.Professors = Professors;
+            university.Students = Students;
 
-            
 
             // TODO: SERIALIZE UNIVERSITY OBJECT INSTEAD OF STUDENTS!
-            string data = serializer.Serialize(Students);
+            string data = serializer.Serialize(university);
 
             string path = Path.Combine(Environment.CurrentDirectory, _JsonFile);
             File.WriteAllText(path, data);
@@ -123,6 +135,8 @@ namespace Exercise__Serialize {
             string data = File.ReadAllText(path);
 
             Students = serializer.Deserialize<List<Student>>(data);
+            Professors= serializer.Deserialize<List<Professor>>(data);
+            Courses = serializer.Deserialize<List<Course>>(data);
 
 
             //Course physics = new Course() {
@@ -169,6 +183,12 @@ namespace Exercise__Serialize {
                 ctrlStudentList.Items.Add(string.Format("{0} \t {1} \t {2}", item.Name, item.Surname, item.RegistrationNumber));
           }
         }
+      //  private void RefreshCourse() {
+         //   ctrlStudentList.Items.Clear();
+        //    foreach (Student item in Students) {
+         //       ctrlStudentList.Items.Add(string.Format("{0} \t {1} \t {2}", item.Name, item.Surname, item.RegistrationNumber));
+         //   }
+      //  }
 
         private void button2_Click(object sender, EventArgs e) {
             // Add student using a form
@@ -179,11 +199,14 @@ namespace Exercise__Serialize {
         }
 
         private void btnAddCourse_Click(object sender, EventArgs e) {
+            AddCourse();
 
+            // refresh
+          //  RefreshStudentList();
         }
 
         private void button3_Click(object sender, EventArgs e) {
-
+            AddProfessor();
         }
 
         private void button4_Click(object sender, EventArgs e) {

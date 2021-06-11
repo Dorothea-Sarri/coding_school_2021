@@ -72,7 +72,7 @@ namespace Exercise__Serialize.Impl {
                 }
             }
         }
-        public void SetCourse() {
+        //public void SetCourse() {
 
 
             //Courses physics1 = new Courses();
@@ -81,9 +81,9 @@ namespace Exercise__Serialize.Impl {
 
 
 
-        }
+      //  }
 
-        public void SetGrade(CoursesCategoryEnum coursesCategory) {
+      /*  public void SetGrade(CoursesCategoryEnum coursesCategory) {
 
             decimal modifier = 0;
 
@@ -116,7 +116,7 @@ namespace Exercise__Serialize.Impl {
 
         }
 
-
+        */
         // crud
 
         public void DeleteScheduledCourse(Guid scheduleID) {
