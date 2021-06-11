@@ -50,6 +50,46 @@ namespace Exercise__Serialize {
             }
 
         }
+        private void AddCourse() {
+            Course course = new Course();
+            // TODO: 1. ΝΑ ΠΕΡΑΣΩ ΤΟ STUDENT ΟΒJECT ΣΤΗΝ ΦΟΡΜΑ!
+
+            // TODO: OPEN FORM ...
+            CourseForm form = new CourseForm();
+            form.NewCourse = course;
+
+            DialogResult result = form.ShowDialog();
+            switch (result) {
+                case DialogResult.OK:
+                    Courses.Add(course);
+                    break;
+
+                default:
+                    // messagge  ?
+                    break;
+            }
+
+        }
+        private void AddProfessor() {
+            Professor professor = new Professor();
+            // TODO: 1. ΝΑ ΠΕΡΑΣΩ ΤΟ STUDENT ΟΒJECT ΣΤΗΝ ΦΟΡΜΑ!
+
+            // TODO: OPEN FORM ...
+            ProfessorForm form = new ProfessorForm();
+            form.NewProfessor = professor;
+
+            DialogResult result = form.ShowDialog();
+            switch (result) {
+                case DialogResult.OK:
+                    Professors.Add(professor);
+                    break;
+
+                default:
+                    // messagge  ?
+                    break;
+            }
+
+        }
         private void WriteToTxt() {
            // string path = Path.Combine(Environment.CurrentDirectory, _TxtFile);
 
