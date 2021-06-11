@@ -57,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Course.cs" />
+    <Compile Include="CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CoursesCategoryEnum.cs" />
     <Compile Include="Entity.cs" />
     <Compile Include="Grade.cs" />
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Person.cs" />
     <Compile Include="Professor.cs" />
+    <Compile Include="ProfessorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfessorForm.Designer.cs">
+      <DependentUpon>ProfessorForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Schedule.cs" />
@@ -80,8 +92,14 @@
       <DependentUpon>StudentForm.cs</DependentUpon>
     </Compile>
     <Compile Include="University.cs" />
+    <EmbeddedResource Include="CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfessorForm.resx">
+      <DependentUpon>ProfessorForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">

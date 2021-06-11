@@ -10,6 +10,7 @@ namespace Exercise__Serialize.Impl
      public class Course : Entity {
 
         // PROPERTIES
+        public string Code { get; set; }
         public string Subject { get; set; }
         public int Hours { get; set; }
         public CoursesCategoryEnum Category { get; set; }
